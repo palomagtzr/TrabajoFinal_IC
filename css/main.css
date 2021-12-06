@@ -109,7 +109,6 @@ section {
 }
 
 .title h1 {
-  font-size: ;
 	margin: 0;
 	padding: 0;
 	font-size: 5em;
@@ -119,7 +118,17 @@ section {
 
 
 
+.title .title-img {
+  padding-top: 4em;
+}
 
+.info {
+  margin: 0;
+  padding-left: 1em;
+  font-size: 2em;
+  line-height: 1.8em;
+  text-align: left;
+}
 
 
 
