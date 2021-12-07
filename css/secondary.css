@@ -15,7 +15,13 @@ body {
 }
 
 .navbar .logo {
-	padding-top: 0px;
+  float: left;
+  padding: 14px 16px;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /* Links inside the navbar */
