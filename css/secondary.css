@@ -83,13 +83,19 @@ body {
 
 
 section {
-  padding: 1em 2em;
+  padding: .5em 2.5em;
   text-align: justify;
 }
 
 .titulo {
   font-size: 3em;
   padding-right: 2em;
+}
+
+.titulo h1 {
+  margin-bottom: .5em;
+  text-align: left;
+
 }
 
 .row{
@@ -101,25 +107,36 @@ section {
   flex: 50%;
 }
 
+.threeocol {
+  text-align: justify;
+  flex: 33%;
+}
+
 .threeocol h3{
   text-align: center;
+  color: gray;
 }
 
 .threeocol p{
-  text-align: justify;
-  flex: 33%;
   margin: 2em;
 }
 
 .hero-img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin: auto;
 }
-
 
 .information {
   line-height: 2sem;
   
+}
+
+.referencias { 
+  background-color: #1f1f1f;
+  color: #636262;
+  font-size: .8em;
+}
+
+.referencias .twocol{
+  margin: 1em;
 }
